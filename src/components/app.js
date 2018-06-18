@@ -1,5 +1,9 @@
 import React from 'react';
 
-class App
+const App = (props) => (
+    <div className = 'container'>
+        <h1 className = 'text-center'>Address Book</h1>
+    </div>
+);
 
-
+export default App;
