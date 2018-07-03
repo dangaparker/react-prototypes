@@ -1,7 +1,11 @@
 import React from 'react';
+import Clock from './clock';
 
-() => {
-    <div className='container'>
-        <h1 className='text-center'>Redux Clock</h1>
-    </div>
+export default () => {
+    return (
+        <div className='container'>
+            <h1 className='text-center'>Redux Clock</h1>
+            <Clock/>
+        </div>
+    )
 }
